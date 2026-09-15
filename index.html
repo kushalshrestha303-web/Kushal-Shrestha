@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kushal Shrestha | Cybersecurity Specialist | SOC & Microsoft Security</title>
+    <meta name="description" content="Cybersecurity portfolio of Kushal Shrestha, focused on security operations, Microsoft Defender, Microsoft Sentinel, cloud security, KQL and incident response.">
+    <meta property="og:title" content="Kushal Shrestha | Cybersecurity Specialist">
+    <meta property="og:description" content="SOC, Microsoft Security, cloud security and hands-on cybersecurity lab portfolio.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/kushal-shrestha-profile.jpeg">
+    <meta name="theme-color" content="#071017">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23071017'/%3E%3Cpath d='M32 8l18 7v14c0 12-7.6 22.2-18 27-10.4-4.8-18-15-18-27V15l18-7z' fill='%2316f2b3'/%3E%3Cpath d='M32 15l11 4.2v10.2c0 7.3-4.5 14-11 17.4-6.5-3.4-11-10.1-11-17.4V19.2L32 15z' fill='%23071017'/%3E%3Cpath d='M24 32h16v5H24z' fill='%2316f2b3'/%3E%3Cpath d='M28 24h8v8h-8z' fill='%236fe7ff'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="css/style.css?v=7">
+  </head>
+  <body>
+    <canvas id="ops-background" class="ops-background" aria-hidden="true"></canvas>
+    <div class="mountain-depth" aria-hidden="true"></div>
+    <div class="cursor-dot" data-cursor-dot aria-hidden="true"></div>
+    <div class="cursor-ring" data-cursor-ring aria-hidden="true"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-header>
+      <nav class="nav shell" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Kushal Shrestha home">
+          <span class="brand-mark">KS</span>
+          <span>Kushal</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" data-nav-toggle>
+          <span class="sr-only">Open navigation menu</span>
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-menu" id="primary-menu" data-nav-menu>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home">
+        <div class="shell hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Cybersecurity Portfolio</p>
+            <h1 data-profile="headline">Kushal Shrestha</h1>
+            <p class="role-line">SOC L1/L2 - Cybersecurity Analyst</p>
+            <p class="hero-summary" data-profile="summary"></p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">Projects</a>
+              <a class="button secondary" href="assets/documents/Kushal-Shrestha-Cybersecurity-Resume.pdf" download>Download Resume</a>
+              <a class="button ghost" href="#contact">Contact</a>
+            </div>
+            <div class="hero-proof" aria-label="Portfolio focus areas">
+              <span>Security Operations</span>
+              <span>Defender XDR</span>
+              <span>Microsoft Sentinel</span>
+              <span>Linux Security</span>
+              <span>Cloud Security</span>
+              <span>Hands-on Labs</span>
+            </div>
+          </div>
+          <div class="hero-visual reveal">
+            <div class="pop-burst burst-one" aria-hidden="true">SOC</div>
+            <div class="pop-burst burst-two" aria-hidden="true">XDR</div>
+            <div class="live-command" aria-label="Animated SOC lab interface">
+              <div class="live-topbar">
+                <span>LIVE LAB UI</span>
+                <strong>SIMULATED</strong>
+              </div>
+              <div class="live-stage">
+                <canvas id="threat-canvas" aria-label="Animated cyber terrain visualization"></canvas>
+                <div class="chrome-object" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="hud-ring hud-ring-main" aria-hidden="true"><span>74%</span></div>
+                <div class="hud-ring hud-ring-small left" aria-hidden="true"><span>42</span></div>
+                <div class="hud-ring hud-ring-small right" aria-hidden="true"><span>3</span></div>
+              </div>
+              <div class="live-grid">
+                <article><span>Events</span><strong>42</strong></article>
+                <article><span>Endpoints</span><strong>2</strong></article>
+                <article><span>Incidents</span><strong>3</strong></article>
+                <article><span>Status</span><strong>Lab</strong></article>
+              </div>
+              <div class="live-strip" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="profile-card floating-profile" aria-label="Kushal Shrestha profile">
+              <img src="assets/images/kushal-shrestha-profile.jpeg" alt="Kushal Shrestha professional profile photo">
+              <div>
+                <p>Kushal Shrestha</p>
+                <span>SOC / Microsoft Security</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-marquee" aria-label="Portfolio focus marquee">
+        <div class="marquee-track">
+          <span>DEFENDER XDR</span>
+          <span>SENTINEL</span>
+          <span>KQL</span>
+          <span>CLOUD SECURITY</span>
+          <span>INCIDENT RESPONSE</span>
+          <span>NETWORK VISIBILITY</span>
+          <span>DEFENDER XDR</span>
+          <span>SENTINEL</span>
+          <span>KQL</span>
+          <span>CLOUD SECURITY</span>
+          <span>INCIDENT RESPONSE</span>
+          <span>NETWORK VISIBILITY</span>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="shell split">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2>SOC L1/L2. Cybersecurity Analyst. Practical labs.</h2>
+          </div>
+          <div class="content-card reveal">
+            <p data-profile="about"></p>
+            <div class="inline-grid">
+              <span class="tool-logo microsoft-logo">Microsoft Sentinel</span>
+              <span class="tool-logo microsoft-logo">Defender XDR</span>
+              <span class="tool-logo linux-logo">Linux</span>
+              <span>KQL</span>
+              <span>Entra ID</span>
+              <span>Azure</span>
+              <span>AWS</span>
+              <span>Windows Server</span>
+              <span>Network Security</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band" id="soc">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Security Operations</p>
+            <h2>SOC workflow</h2>
+          </div>
+          <div class="workflow" data-workflow></div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills Matrix</p>
+            <h2>Security stack</h2>
+          </div>
+          <div class="filter-row" role="tablist" aria-label="Skill filters" data-skill-filters></div>
+          <div class="skills-grid" data-skills></div>
+        </div>
+      </section>
+
+      <section class="section band" id="projects">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Featured Projects</p>
+            <h2>Case studies</h2>
+          </div>
+          <div class="filter-row" role="tablist" aria-label="Project filters" data-project-filters>
+            <button class="filter active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="microsoft">Microsoft Security</button>
+            <button class="filter" type="button" data-filter="identity">Identity</button>
+            <button class="filter" type="button" data-filter="network">Network</button>
+            <button class="filter" type="button" data-filter="frontend">Frontend</button>
+          </div>
+          <div class="projects-grid" data-projects></div>
+
+          <article class="architecture-card reveal">
+            <div>
+              <p class="eyebrow">Featured Architecture Visual</p>
+              <h3>Contoso Security Architecture</h3>
+              <p>Uploaded Contoso architecture covering Entra, Sentinel, Defender XDR, Defender for Cloud and Azure Arc.</p>
+              <div class="doc-actions">
+                <a class="button secondary" href="assets/images/contoso-security-architecture.png" target="_blank" rel="noopener">View Architecture</a>
+              </div>
+            </div>
+            <a href="assets/images/contoso-security-architecture.png" target="_blank" rel="noopener" aria-label="Open Contoso security architecture image">
+              <img src="assets/images/contoso-security-architecture.png" alt="Contoso security architecture diagram with Microsoft Entra, Sentinel, Defender XDR and cloud security components" loading="lazy">
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="toolkit">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Security Toolkit</p>
+            <h2>Toolkit</h2>
+          </div>
+          <div class="toolkit-layout">
+            <div class="toolkit-grid" data-toolkit></div>
+            <aside class="tool-detail" data-tool-detail aria-live="polite"></aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band" id="lab">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">My SOC Lab</p>
+            <h2>Mock SOC lab</h2>
+          </div>
+          <div class="lab-dashboard reveal" aria-label="Simulated SOC lab dashboard">
+            <div class="lab-banner">SIMULATED SOC LAB DATA - not live production monitoring</div>
+            <div class="metric-grid lab-metrics">
+              <article><span>Security Status</span><strong>Lab Environment Operational</strong></article>
+              <article><span>Open Incidents</span><strong>3</strong></article>
+              <article><span>Endpoints</span><strong>2 Protected</strong></article>
+              <article><span>Detection Coverage</span><strong>Identity / Endpoint / Network / Cloud</strong></article>
+            </div>
+            <div class="alert-stream">
+              <h3>Recent Alerts</h3>
+              <ul>
+                <li>Suspicious PowerShell activity</li>
+                <li>Unusual authentication activity</li>
+                <li>EICAR test detection</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="certifications">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Certifications & Learning</p>
+            <h2>Certifications & learning</h2>
+          </div>
+          <div class="timeline" data-certifications></div>
+        </div>
+      </section>
+
+      <section class="section band" id="experience">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experience & Education</p>
+            <h2>Experience & education</h2>
+          </div>
+          <div class="two-columns">
+            <div class="stack" data-experience></div>
+            <div class="stack" data-education></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="roadmap">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Learning Roadmap</p>
+            <h2>Roadmap</h2>
+          </div>
+          <div class="roadmap" data-roadmap></div>
+        </div>
+      </section>
+
+      <section class="section band" id="resume">
+        <div class="shell resume-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Resume & Workbook</p>
+            <h2>Documents</h2>
+          </div>
+          <div class="doc-grid">
+            <article class="doc-card reveal">
+              <h3>Cybersecurity Resume</h3>
+              <p>Resume PDF for recruiters.</p>
+              <div class="doc-actions">
+                <a class="button primary" href="assets/documents/Kushal-Shrestha-Cybersecurity-Resume.pdf" download>Download Resume PDF</a>
+                <a class="button secondary" href="assets/documents/Kushal-Shrestha-Cybersecurity-Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+              </div>
+            </article>
+            <article class="doc-card reveal">
+              <h3>Security Operations Efficiency Workbook</h3>
+              <p>Security operations workbook PDF.</p>
+              <div class="doc-actions">
+                <a class="button primary" href="assets/documents/Security-Operations-Efficiency-Workbook.pdf" target="_blank" rel="noopener">View Workbook</a>
+                <a class="button secondary" href="assets/documents/Security-Operations-Efficiency-Workbook.pdf" download>Download Workbook</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="shell contact-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Let's Connect</h2>
+            <p>Open to cybersecurity, SOC, cloud security and IT support roles with a security focus.</p>
+            <div class="status-pill final-status">
+              <span aria-hidden="true"></span>
+              <strong data-profile="availability"></strong>
+            </div>
+            <div class="contact-links">
+              <a href="http://www.linkedin.com/in/kushal-shrestha-42702b247" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://github.com/kushalshrestha303-web/sc200.git" target="_blank" rel="noopener">GitHub</a>
+              <a href="mailto:kushalshrestha993@gmail.com">kushalshrestha993@gmail.com</a>
+              <button type="button" class="copy-button" data-copy-email>Copy email</button>
+            </div>
+          </div>
+          <form class="contact-form reveal" data-contact-form novalidate>
+            <label>Name <input name="name" autocomplete="name" required></label>
+            <label>Email <input name="email" type="email" autocomplete="email" required></label>
+            <label>Subject <input name="subject" required></label>
+            <label>Message <textarea name="message" rows="5" required></textarea></label>
+            <button class="button primary" type="submit">Send Message</button>
+            <p class="form-note" data-form-note>This form opens a ready-to-send email draft to kushalshrestha993@gmail.com.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <strong>Kushal Shrestha</strong>
+          <p>Cybersecurity Specialist | Security Operations | Microsoft Security & Cloud</p>
+        </div>
+        <nav aria-label="Footer links">
+          <a href="http://www.linkedin.com/in/kushal-shrestha-42702b247" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/kushalshrestha303-web/sc200.git" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:kushalshrestha993@gmail.com">Email</a>
+          <a href="assets/documents/Kushal-Shrestha-Cybersecurity-Resume.pdf" download>Resume</a>
+        </nav>
+        <span>© 2026 Kushal Shrestha</span>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to top" data-back-to-top>↑</button>
+
+    <div class="modal" data-modal hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <article class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="Close case study" data-close-modal>×</button>
+        <div data-modal-content></div>
+      </article>
+    </div>
+
+    <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+    <script src="js/data.js?v=6"></script>
+    <script src="js/live-scene.js?v=6"></script>
+    <script src="js/main.js?v=6"></script>
+  </body>
+</html>
